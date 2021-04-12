@@ -1,0 +1,19 @@
+
+nav {
+    background-color: black;
+    color: brown;
+    border-color: crimson;
+}
+
+.menu {
+    display: flex;
+    align-content: center;
+        
+}
+
+.menu {
+    width: 10%;
+        height: auto;
+        background-color: black;
+        border: brown;
+}
