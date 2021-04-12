@@ -5,10 +5,17 @@
     height: auto;
     background-color: black;
     font-family: cursive;
-    color: white;
-    border: brown;
+    border: brown solid 7px;
     justify-content: center;
     list-style: none;
+}
+
+.menu a:hover{
+    background-color: white;
+    border: 5px white;
+    border-radius: 3px; 
+    color: black;
+
 }
 
 .circulo{
@@ -17,7 +24,7 @@
     height: 100px;
     border-radius: 60%;
     background-color: black;
-    border: 3px darkmagenta;
+    border: 7px darkmagenta solid;
 
 }
 
@@ -27,28 +34,28 @@
     height: 100px;
     background: rgb(29, 158, 245);
     border-color: black;
+    box-shadow: black 10px 10px 8px;
 
 }
 
 .cuadro-triangulo {
 
-    width: 100px;
-    height: 100px;  
-    border-left: blue 100px;
-    border-top:yellow 50px;
-    border-bottom: red 50px;
+    width: 0px;
+    height: 0px;  
+    border-left: blue 100px solid;
+    border-top:yellow 50px solid;
+    border-bottom: red 50px solid;
 }
 
 .pacman {
 
     width: 0;
     height: 0;
-    border-right: 50px white;
-    border-top: 50px blue;
-    border-bottom: 50px red;
-    border-left: 50px yellow;
-    
-
+    border-right: 50px transparent solid;
+    border-top: 50px blue solid;
+    border-bottom: 50px red solid;
+    border-left: 50px yellow solid;
+    border-radius: 50%;
 }
 
 footer {
@@ -57,6 +64,8 @@ footer {
     height: auto;   text-align: center;
     bottom: 0;
 }
+
+
 
 footer p {
     padding-top: 1%;
